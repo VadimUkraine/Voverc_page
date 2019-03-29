@@ -1,0 +1,253 @@
+main.main-wrap
+	.select_plan_wrap
+		.choose_number_wrap(data-step="0")
+			.number_content
+				i.far.fa-check-circle.fa-lg
+				| Choose number
+			.polygon_number
+		.choose_plan_wrap(data-step="1")
+			.polygon_plan_before
+			.plan_content
+				i.fas.fa-clipboard-list.fa-lg
+				| Choose plan			
+			.polygon_plan_after
+		.add_users_wrap(data-step="2")
+			.polygon_users_before
+			.add_users_content
+				i.fas.fa-users.fa-lg
+				| Add users			
+			.polygon_users_after
+		.checkout_wrap(data-step="3")
+			.polygon_checkout_before
+			.checkout_content
+				i.fas.fa-clipboard-check.fa-lg
+				| Checkout
+	section.trial_plans_wrap
+		.plans_title_block
+			h2.plans_title Select a plan for your trial
+			p.info_tooltip(title="Lorem ipsum, trem ipsum, orem ipsum")
+				i.fas.fa-info.fa-xs
+		.trial_plans_block
+			.trial_plan_item(data-id="0")
+				.plan_attention Most popular
+				.plan
+					p.plan_title Essentials
+						span  &#8482;
+					.divider
+					.plan_services
+						.plan_services_item
+							p.services_item_dot
+							p.services_item_content Up to 10 users
+						.plan_services_item
+							p.services_item_dot
+							p.services_item_content Toll-free or local number
+						.plan_services_item
+							p.services_item_dot
+							p.services_item_content 100 toll-free min/mo
+						.plan_services_item
+							p.services_item_dot
+							p.services_item_content 4 people per video meeting
+					.divider
+					p.trial_price_title Price after the trial
+					p.trial_price from 
+						span $ 29.99
+						|  /user/month
+					.divider
+					.checkbox
+						p.checkbox_inner
+					.select_wrap
+						p.select_plan Select this plan
+						button.btn_confirm(type="button") Continue
+			.trial_plan_item(data-id="1")
+				.plan_attention Most popular
+				.plan
+					p.plan_title Standard
+						span  &#8482;
+					.divider
+					.plan_services
+						.plan_services_item
+							p.services_item_dot
+							p.services_item_content Unlimited users
+						.plan_services_item
+							p.services_item_dot
+							p.services_item_content Toll-free or local number
+						.plan_services_item
+							p.services_item_dot
+							p.services_item_content 1,000 toll-free min/mo
+						.plan_services_item
+							p.services_item_dot
+							p.services_item_content 4 people per video meeting
+						.plan_services_item
+							p.services_item_dot
+							p.services_item_content Unlimited internet fax
+					.divider
+					p.trial_price_title Price after the trial
+					p.trial_price from 
+						span $ 34.99
+						|  /user/month
+					.divider
+					.checkbox
+						p.checkbox_inner
+					.select_wrap
+						p.select_plan Select this plan
+						button.btn_confirm(type="button") Continue
+			.trial_plan_item(data-id="2")
+				.plan_attention Most popular
+				.plan
+					p.plan_title Premium
+						span  &#8482;
+					.divider
+					.plan_services
+						.plan_services_item
+							p.services_item_dot
+							p.services_item_content Unlimited users
+						.plan_services_item
+							p.services_item_dot
+							p.services_item_content Toll-free or local number
+						.plan_services_item
+							p.services_item_dot
+							p.services_item_content 1,500 toll-free min/mo
+						.plan_services_item
+							p.services_item_dot
+							p.services_item_content 50 people per video meeting
+						.plan_services_item
+							p.services_item_dot
+							p.services_item_content Unlimited internet fax
+					.divider
+					p.trial_price_title Price after the trial
+					p.trial_price from 
+						span $ 44.99
+						|  /user/month
+					.divider
+					.checkbox
+						p.checkbox_inner
+					.select_wrap
+						p.select_plan Select this plan
+						button.btn_confirm(type="button") Continue
+			.trial_plan_item(data-id="3")
+				.plan_attention Most popular
+				.plan
+					p.plan_title Ultimate
+						span  &#8482;
+					.divider
+					.plan_services
+						.plan_services_item
+							p.services_item_dot
+							p.services_item_content Unlimited users
+						.plan_services_item
+							p.services_item_dot
+							p.services_item_content Toll-free or local number
+						.plan_services_item
+							p.services_item_dot
+							p.services_item_content 2,500 toll-free min/mo
+						.plan_services_item
+							p.services_item_dot
+							p.services_item_content 75 people per video meeting
+						.plan_services_item
+							p.services_item_dot
+							p.services_item_content Unlimited internet fax
+						.plan_services_item
+							p.services_item_dot
+							p.services_item_content Automatic call recording
+						.plan_services_item
+							p.services_item_dot
+							p.services_item_content Voicemall-to-text
+					.divider
+					p.trial_price_title Price after the trial
+					p.trial_price from 
+						span $ 54.99
+						|  /user/month
+					.divider
+					.checkbox
+						p.checkbox_inner
+					.select_wrap
+						p.select_plan Select this plan
+						button.btn_confirm(type="button") Continue
+	section.phone_system_wrap
+		.phone_system
+			h3.ps_title A complete phone system
+			.content
+				ul.menu_left
+					li.menu_left_item
+						i.fab.fa-mixcloud
+						| Cloud PBX
+					li.menu_left_item
+						i.far.fa-folder
+						| Toll-free minutes per month per account
+					li.menu_left_item
+						i.fas.fa-fax
+						| Unlimited internet fax
+					li.menu_left_item
+						i.fas.fa-globe
+						| Global Office 
+						span.trade_mark &#8482;
+					li.menu_left_item
+						i.fas.fa-phone
+						| Toll-free, local, vanity, or international numbers for voice and fax
+					li.menu_left_item
+						i.fas.fa-arrows-alt
+						| Auto attendant and dial-by-name directory
+					li.menu_left_item
+						i.fab.fa-resolving
+						p RingCentral for iOS
+							span.reg_trade_mark &#174;
+							|, Android
+							span.trade_mark &#8482;
+							| , Mac
+							span.reg_trade_mark &#174;
+							| , and Windows
+							span.reg_trade_mark &#174;
+				ul.menu_middle
+					li.menu_middle_item
+						i.fas.fa-microphone
+						| Audio conferencing
+					li.menu_middle_item
+						i.fas.fa-users
+						| Online meetings
+					li.menu_middle_item
+						i.fas.fa-user-astronaut
+						| Team collaboration
+					li.menu_middle_item
+						i.fas.fa-assistive-listening-systems
+						| Intercom
+					li.menu_middle_item
+						i.fas.fa-stream
+						| Shared lines
+					li.menu_middle_item
+						i.fas.fa-parking
+						| Call Park
+					li.menu_middle_item
+						i.fas.fa-phone-volume
+						| Call queues
+					li.menu_middle_item
+						i.fas.fa-paste
+						| Paging
+					li.menu_middle_item
+						i.fas.fa-angle-double-right
+						| Advanced call forwarding
+				ul.menu_right
+					li.menu_right_item
+						i.far.fa-file-alt
+						| Flexible answering rules
+					li.menu_right_item
+						i.fas.fa-arrows-alt-h
+						| Presence based on multipledevices
+					li.menu_right_item
+						i.far.fa-file-pdf
+						| Call log reports
+					li.menu_right_item
+						i.fas.fa-cogs
+						| Templates for batch configurations
+					li.menu_right_item
+						i.fas.fa-grip-horizontal
+						| Keep your existing phone numbers
+					li.menu_right_item
+						i.far.fa-clock
+						| FREE 24/7 customer support
+					li.menu_right_item
+						i.far.fa-check-circle
+						| No set up or activation fees
+					li.menu_right_item
+						i.fas.fa-user-check
+						| Implementation advisors, FREE when you sign up for two or more users
+			h4.ps_title_closing You get everything you need. It's really that convenient.
